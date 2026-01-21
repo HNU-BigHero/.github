@@ -1,3 +1,7 @@
+[中文](./README.md)/[English](./README_EN.md)
+
+
+
 ## 🇬🇧 English | Team Introduction
 
 ### Who We Are
