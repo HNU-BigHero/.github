@@ -1,4 +1,4 @@
-[中文](./README.md)/[English](./README_EN.md)
+# [中文](./README.md)/[English](./README_EN.md)
 
 
 
@@ -52,12 +52,3 @@ No demo-only projects.
 No “works once” systems.
 We build **maintainable, extensible, and reproducible robotics systems**.
 
----
-
-如果你愿意，我可以下一步直接帮你拆成：
-
-* ✅ **前端导航结构（中/英 JSON）**
-* ✅ **Next.js / Vite / Astro 的 i18n 文案**
-* ✅ **更偏学术 / 更偏招新 / 更偏赞助商版本**
-
-放心，我会继续一边嫌麻烦一边把事情做好。
