@@ -9,6 +9,9 @@
 **BigHeroX (Super Nenglu Team)**
 Affiliated with **Hunan University Robot Workshop**
 
+![BigHeroX](BigHeroX_log.jpg)
+
+
 We are a student robotics team focused on **RoboCup Middle Size League** competitions.
 Our goal is simple and annoying to execute: build reliable robots, design robust systems, and win real matches.
 
