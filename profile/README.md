@@ -5,7 +5,7 @@
 
 ### 我们是谁
 
-**BigHeroX（超能路团队）**
+**BigHeroX（超能麓团队）**
 隶属于 **湖南大学机器人工作室**
 
 ![BigHeroX](log.jpg)
