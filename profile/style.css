@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    line-height: 1.8;
+    color: #2c3e50;
+    background: #f5f7fa;
+    min-height: 100vh;
+}
+
+header {
+    background: white;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lang-switch a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #7f8c8d;
+    font-weight: 400;
+    transition: color 0.2s;
+    font-size: 0.95rem;
+}
+
+.lang-switch a.active {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.lang-switch a:hover {
+    color: #2c3e50;
+}
+
+main {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+section {
+    background: white;
+    border-radius: 8px;
+    padding: 2.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.hero {
+    text-align: center;
+    background: white;
+    padding: 3rem 2.5rem;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.name-meaning {
+    margin-top: 2rem;
+}
+
+.meaning-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.meaning-item {
+    padding: 1.2rem;
+    background: #f8f9fb;
+    border-radius: 6px;
+    border-left: 3px solid #3498db;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+.work-item {
+    padding: 1.5rem;
+    background: #f8f9fb;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.work-item:hover {
+    background: #ecf0f1;
+}
+
+.icon {
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.work-item h3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0.5rem;
+}
+
+.work-item p {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.achievement-list {
+    display: grid;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.achievement-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    border-radius: 6px;
+    background: #f8f9fb;
+    transition: background 0.2s;
+}
+
+.achievement-item:hover {
+    background: #ecf0f1;
+}
+
+.achievement-item.gold {
+    border-left: 3px solid #f39c12;
+}
+
+.achievement-item.silver {
+    border-left: 3px solid #95a5a6;
+}
+
+.medal {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.achievement-item p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.philosophy blockquote {
+    border-left: 3px solid #3498db;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.philosophy blockquote p {
+    margin-bottom: 0.5rem;
+}
+
+.philosophy blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #7f8c8d;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 1.5rem auto;
+    }
+    
+    section {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hero {
+        padding: 2rem 1.5rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    .meaning-grid,
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+}
